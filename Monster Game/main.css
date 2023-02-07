@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
+}
+
+main {
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#players {
+  display: flex;
+  justify-content: space-between;
+}
+
+#players > div {
+  width: 48%;
+  text-align: center;
+}
+
+#players > div h1 {
+  text-align: center;
+}
+
+.healthyProgres {
+  position: relative;
+}
+
+#players > div meter {
+  display: block;
+  width: 100%;
+  height: 50px;
+
+  margin-top: 20px;
+}
+
+#players > div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+#btnsAll {
+  margin-top: 40px;
+}
+
+#btnsAll button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#btnStart {
+  background-color: green;
+}
+
+#btnAttack {
+  background-color: brown;
+}
+#btnSpecialAttack {
+  background-color: coral;
+  margin-left: 10px;
+}
+#btnHealth {
+  background-color: green;
+  margin-left: 10px;
+}
+#btnLose {
+  background-color: grey;
+  margin-left: 10px;
+}
+
+#scoreInfo {
+  margin-top: 50px;
+}
+
+#scoreInfo li {
+  margin-top: 10px;
+  padding: 10px;
+}
+.myPlayer {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+.monster {
+  background-color: rgb(196, 3, 3);
+  color: white;
+  text-align: center;
+}
+
+.player-attack {
+  background-color: coral;
+  color: white;
+  padding: 10px;
+}
+
+.monster-attack {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+}
+
+.plus-health {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.lose {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
